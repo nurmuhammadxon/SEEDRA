@@ -266,6 +266,11 @@ body {
   font-size: 48px;
   color: #E55C5C;
   cursor: pointer;
+  animation-name: priceAnim;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .price-box .new__price {
@@ -334,6 +339,12 @@ body {
 .main-skitka .right-contant .backround-img {
   right: 0;
   bottom: -12%;
+  animation-name: backroundAnim;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: all .2s ease-in;
 }
 
 .main-skitka .right-contant .leaft__bottom {
@@ -1109,6 +1120,42 @@ body {
 
 
 /* ANIMATION Section */
+
+
+/* main skitka */
+@keyframes backroundAnim {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: .4;
+  }
+}
+
+@keyframes priceAnim {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  75% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/*seedra section */
 
 @keyframes leaftRotation {
   0% {
