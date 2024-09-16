@@ -1135,7 +1135,7 @@ body {
 
 @keyframes priceAnim {
   0% {
-    transform: translateY(0);
+    transform: scale(1);
   }
 
   25% {
@@ -1151,7 +1151,7 @@ body {
   }
 
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-10px) scale(1.5);
   }
 }
 
