@@ -830,16 +830,16 @@ body {
 }
 
 .customer__opinion-section .customer-iteams {
+  max-width: 1110px;
   margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 .customer-iteams .customer__opinion-box {
-  width: 350px;
-  /* height: 350px; */
+  width: 540px;
   padding: 42px 32px;
   border: 1px solid #EFEFEF;
   border-radius: 12px;
