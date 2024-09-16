@@ -248,4 +248,18 @@
   .blog-iteam-right {
     text-align: center;
   }
+
+  .customer-iteams .customer__opinion-box {
+    width: 350px;
+  }
+
+  .footer-list-box .footer-list {
+    flex-direction: column;
+    top: 20%;
+  }
+
+  .footer-list-box img {
+    position: relative;
+    top: -70px;
+  }
 }
