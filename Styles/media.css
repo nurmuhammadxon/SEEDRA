@@ -1,0 +1,251 @@
+@media screen and (max-width:1280px) {
+  .navbar {
+    padding: 1rem 6rem;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .navbar {
+    padding: 1rem 1rem;
+  }
+
+  /* seedra__speed */
+  .seedra__speed {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0;
+    padding-bottom: 0;
+  }
+
+  .seedra__speed .left-content {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 5%;
+    text-align: center;
+  }
+
+  .seedra__speed .right-img {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:1024px) {
+
+  .page__size {
+    padding: 0 1rem;
+    margin: 30px auto;
+  }
+
+  /* navbar */
+  .navbar {
+    padding: 1rem 2rem;
+    max-width: 1024px;
+  }
+
+  .menu-box .menu-label {
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    border: 1px solid #EFEFEF;
+    border-radius: 50%;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+  }
+
+  .menu-box .menu-label i {
+    font-size: 24px;
+    color: #359740;
+  }
+
+  .navbar .shops {
+    width: 15%;
+    position: absolute;
+    right: 5%;
+    justify-content: start;
+    gap: 10%;
+  }
+
+  .navbar .shops i {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #EFEFEF;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+
+  .navbar .contaction-box {
+    background-color: #fff;
+    flex-direction: column-reverse;
+    position: absolute;
+    right: 0;
+    top: 120%;
+  }
+
+  .navbar .nav-list {
+    display: none;
+  }
+
+  .navbar .after__link {
+    border-bottom: 1px solid #EFEFEF;
+    border-right: none;
+    align-content: space-between;
+  }
+
+  .navbar .contaction-box {
+    position: absolute;
+    border-radius: 12px;
+    top: 105%;
+    right: -100%;
+    padding: 20px 30px;
+    gap: 30px;
+    align-items: start;
+    transition: all .4s ease-in-out;
+  }
+
+  .navbar .search-box {
+    width: 100%;
+  }
+
+  .navbar .all-products-list {
+    display: flex;
+    width: 100%;
+  }
+
+  .navbar .shops {
+    width: 20%;
+  }
+
+  .menu-box .menu-input:checked~.contaction-box {
+    right: 0;
+  }
+
+  /* main-skitka */
+
+  .main-skitka {
+    margin: 0 1rem;
+    padding: 0 1rem 1rem 0;
+    flex-direction: column-reverse;
+  }
+
+  .main-skitka .left-contant {
+    width: 100%;
+    padding: 1rem;
+    padding-top: 60px;
+    position: relative;
+  }
+
+  .price-box {
+    position: absolute;
+    top: 0;
+  }
+
+  .main-skitka .right-contant {
+    width: 100%;
+  }
+
+  .main-skitka .right-contant .backround-img {
+    left: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  .main-skitka .right-contant .leaft__bottom {
+    top: 10%;
+    left: 40%;
+    transform: rotateZ(90deg);
+  }
+
+  .main-skitka .right-contant .leaft__center {
+    top: 50%;
+    left: 2%;
+  }
+
+  .main-skitka .right-contant .leaft__right {
+    top: 40%;
+    right: 40%;
+    transform: rotateZ(90deg);
+  }
+
+  .main-skitka .right-contant .leaft__right-top {
+    display: none;
+  }
+
+  .main-skitka .right-contant .product-img {
+    left: 10%;
+  }
+}
+
+/* max-widht 769px */
+@media screen and (max-width:900px) {
+
+  /* navbar */
+  .navbar {
+    max-width: 900px;
+  }
+
+  .navbar .shops {
+    right: 20%;
+  }
+
+  /* Seeds-box */
+  .seeds-box .center-contant {
+    width: 60%;
+  }
+
+  .seeds-box .left-img .seed-rigth {
+    top: 100%;
+    left: 70%;
+  }
+
+  .seeds-box .left-img .seed-bottom {
+    display: none;
+  }
+
+  .seeds-box .right-img .seed-top {
+    display: none;
+  }
+
+  .seeds-box .right-img .seed-left-bottom {
+    display: none;
+  }
+
+  .seedra__speed .right-img .circle {
+    right: 5%;
+  }
+
+  .seedra__speed .right-img .girl-img {
+    right: 13%;
+  }
+
+  /* .products-section */
+  .product__iteams-box .product__iteam {
+    width: 350px;
+  }
+
+  .product__iteam .pruduct-about {
+    width: 350px;
+  }
+
+  .products-section .product__iteams-box {
+    flex-wrap: nowrap;
+  }
+
+  /* .blog-section  */
+  .blog-iteams-box {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .blog-iteams-box .blog-iteam {
+    width: 350px;
+    flex-direction: column;
+  }
+
+  .blog-iteam-right {
+    text-align: center;
+  }
+}
