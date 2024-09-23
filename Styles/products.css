@@ -1,0 +1,223 @@
+/* products-section Section Styles */
+
+.products-section {
+  padding: 48px 0;
+}
+
+.products__title-box {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products__title-box .products__title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  color: #1F2533;
+}
+
+.products__title-box .all__products {
+  padding: 11px 33px;
+  border: 1px solid #EFEFEF;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 28px;
+  color: #359740;
+  transition: all .3s ease-out;
+}
+
+.products__title-box .all__products:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* .products-list BOX Styles */
+
+.products-section .products-list {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  overflow: hidden;
+}
+
+.products-list .product-iteam {
+  padding: 20px 30px 20px 16px;
+  border: 2px solid #EFEFEF;
+  border-radius: 8px;
+  transition: all .2s ease-in;
+}
+
+.products-list .product-iteam:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.products-list .product-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #1F2533;
+}
+
+/* product__iteams-box BOX Styles */
+
+.products-section .product__iteams-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.product__iteams-box .product__iteam {
+  width: 30%;
+  position: relative;
+  border: 2px solid #EFEFEF;
+  border-radius: 8px;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.product__iteams-box .product__iteam:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product__iteams-box .product__iteam:hover .pruduct-about img {
+  transform: scale(1.1);
+}
+
+.product__iteam .favorite-product-box {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #EFEFEF;
+  background-color: #fff;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorite-product-box .favorite-product {
+  display: none;
+}
+
+.favorite-product-box .bx-heart {
+  font-size: 24px;
+  color: #FFCF55;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.favorite-product-box .bx-heart:hover {
+  transform: scale(1.2);
+}
+
+.favorite-product-box .bxs-heart {
+  font-size: 24px;
+  color: #FFCF55;
+  cursor: pointer;
+  display: none;
+}
+
+.product__iteam .pruduct-about {
+  padding: 28px;
+}
+
+.product__iteam .pruduct-about .pruduct-about-img {
+  width: 85%;
+  border-radius: 12px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.pruduct-about img {
+  width: 100%;
+  transition: all .3s ease-in;
+}
+
+.pruduct-about .star-box {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.star-box a .bxs-star {
+  font-size: 16px;
+  color: #FFCF55;
+}
+
+.star-box a .bxs-star-half {
+  font-size: 16px;
+  color: #FFCF55;
+  margin-right: 13px;
+}
+
+.star-box a .star-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #70737C;
+}
+
+.pruduct-about .pruduct-title {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  color: #1F2533;
+  margin: 8px 0;
+}
+
+.pruduct-about .product-price-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pruduct-about .product-price-box .product-price {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 54px;
+  color: #1F2533;
+}
+
+.pruduct-about .product-price-box .bxs-hot {
+  color: #E55C5C;
+  font-size: 24px;
+  display: none;
+}
+
+.pruduct-about .product-price-box .cart-box {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  border: 1px solid #EFEFEF;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .3s ease-out;
+}
+
+.pruduct-about .product-price-box .cart-box:hover {
+  background-color: #EAF1EB;
+}
+
+.pruduct-about .product-price-box .cart-box:hover .bx-cart-alt {
+  transform: scale(1.2);
+}
+
+.product-price-box .cart-box .bx-cart-alt {
+  font-size: 24px;
+  color: #359740;
+  transition: all .3s ease-out;
+}
