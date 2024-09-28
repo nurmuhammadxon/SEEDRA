@@ -263,3 +263,37 @@
     top: -70px;
   }
 }
+
+@media screen and (max-width: 430px) {
+  .seedra__speed .right-img .circle {
+    right: -50%;
+    transform: scale(0.8);
+  }
+
+  .seedra__speed .right-img .girl-img {
+    right: -35%;
+    transform: scale(0.8);
+  }
+
+  .seedra__speed .right-img .leaft-top {
+    left: -45%;
+  }
+
+  .seedra__speed .right-img .leaft-bootom {
+    left: -40%;
+  }
+
+  .seedra__speed .right-img .leaft-right {
+    right: -50%;
+  }
+
+  .seedra__speed .right-img .leaft-top-right {
+    top: 10%;
+    right: -30%;
+  }
+
+  .seedra__speed .right-img .leaft-right-bottom {
+    right: -20%;
+  }
+
+}

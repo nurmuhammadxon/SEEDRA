@@ -1,5 +1,4 @@
 /* MAIN SECTION Styles */
-
 .main-skitka {
   background-color: #EAF1EB;
   border-radius: 24px;
@@ -404,7 +403,7 @@
   margin-right: 13px;
 }
 
-.star-box a .star-text {
+.star-box .star-text a {
   font-size: 14px;
   font-weight: 500;
   line-height: 25px;
@@ -812,3 +811,70 @@
   animation-direction: alternate;
 }
 
+.seedra__speed .right-img .right__img-content {
+  position: absolute;
+}
+
+.seedra__speed .right-img .circle {
+  top: 10%;
+  right: 15%;
+  z-index: 2;
+}
+
+.seedra__speed .right-img .girl-img {
+  top: 17%;
+  right: 23%;
+  z-index: 10;
+}
+
+.seedra__speed .right-img .leaft-top {
+  top: 22%;
+  left: -10%;
+  animation-name: leaftRotation;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.seedra__speed .right-img .leaft-bootom {
+  bottom: 5%;
+  left: -8%;
+  z-index: 2;
+  animation-name: leaftJump;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.seedra__speed .right-img .leaft-right {
+  top: 18%;
+  right: 3%;
+  z-index: 2;
+  animation-name: leaftBig;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.seedra__speed .right-img .leaft-top-right {
+  top: 5%;
+  right: 30%;
+  animation-name: leaftCircle;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.seedra__speed .right-img .leaft-right-bottom {
+  bottom: 15%;
+  right: 0;
+  animation-name: leaftHidden;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
