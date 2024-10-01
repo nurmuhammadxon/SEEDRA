@@ -17,8 +17,12 @@
 }
 
 .products-list .product-iteam:hover {
-  background-color: #f0f0f0;
-  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+  background: #FFFFFF;
+  border: 2px solid #35974014;
+}
+
+.products-list .product-iteam:active {
+  border: 1px solid #359740;
 }
 
 .products-list .product-link {
@@ -96,8 +100,9 @@ details ul {
 details .input-label {
   font-size: 14px;
   font-weight: 400;
-  line-height: 24.95px;
+  line-height: 25px;
   color: #70737C;
+  cursor: pointer;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -152,6 +157,7 @@ details .price-label {
   font-weight: 400;
   line-height: 25px;
   color: #70737C;
+  cursor: pointer;
 }
 
 details .price-label .input-price {
@@ -174,6 +180,7 @@ details .price-label .input-price[type="number"]::-webkit-inner-spin-button {
 
 .products-section .product__iteams-box {
   width: 80%;
+  margin-bottom: 70px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -191,7 +198,8 @@ details .price-label .input-price[type="number"]::-webkit-inner-spin-button {
 }
 
 .product__iteams-box .product__iteam:hover {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #EFEFEF;
+  box-shadow: 0px 1px 13px 0px #00000040;
 }
 
 .product__iteams-box .product__iteam:hover .pruduct-about img {
@@ -314,11 +322,21 @@ details .price-label .input-price[type="number"]::-webkit-inner-spin-button {
 }
 
 .pruduct-about .product-price-box .cart-box:hover {
-  background-color: #EAF1EB;
+  background: #35974014;
+  border: 1px solid #EFEFEF;
 }
 
 .pruduct-about .product-price-box .cart-box:hover .bx-cart-alt {
   transform: scale(1.2);
+}
+
+.pruduct-about .product-price-box .cart-box:active {
+  background: #359740;
+  border: 1px solid #359740;
+}
+
+.pruduct-about .product-price-box .cart-box:active .bx-cart-alt {
+  color: #fff;
 }
 
 .product-price-box .cart-box .bx-cart-alt {
